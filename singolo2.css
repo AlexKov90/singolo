@@ -1,0 +1,362 @@
+@font-face {
+    font-family: 'Lato light', sans-serif;
+    src: url(assets/latolight.ttf);
+}
+
+body {
+    width: 1020px;
+    margin: 0 auto;
+}
+
+.portfolio {
+    width: 100%;
+    height: 870px;
+    background-color: #2D303A;
+    box-shadow: inset 0 -12px 0px -6px #2C3445;
+}
+
+.portfolio h1,
+p {
+    color: #666D89;
+    margin: 0;
+    padding: 0;
+}
+
+.portfolio h1 {
+    padding-top: 61px;
+    padding-left: 40px;
+    font-size: 32px;
+}
+
+.portfolio p {
+    padding-top: 21px;
+    padding-left: 40px;
+    font-size: 19px;
+    letter-spacing: -0.25px;
+}
+
+.menu-portfolio {
+    padding-top: 13px;
+    padding-left: 35px;
+    padding-bottom: 20px;
+}
+
+.menu-portfolio input {
+    text-align: center;
+}
+
+.menu-portfolio input:hover {
+    color: white;
+    border-color: white;
+    cursor: pointer;
+}
+
+.button {
+    background-color: #2D303A;
+    color: #666D89;
+    border: 1px solid #666D89;
+    border-radius: 3px;
+    font-size: 13px;
+    letter-spacing: -1px;
+    padding-left: 14px;
+    height: 22px;
+}
+
+.ourwork {
+    margin: 0 auto;
+    width: 100%;
+    height: 670px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.column {
+    width: 24%;
+    height: 100%;
+    display: block;
+}
+
+.col1 {
+    width: 100%;
+    height: 100%;
+    padding-left: 39px;
+}
+
+.col2 {
+    width: 100%;
+    height: 100%;
+}
+
+.col3 {
+    width: 100%;
+    height: 100%;
+}
+
+.col4 {
+    width: 100%;
+    height: 100%;
+}
+
+.pic:hover {
+    transform: scale(1.5);
+    transition: 1s ease;
+}
+
+.lay12 {
+    background-image: url(assets/lay12.png);
+    background-repeat: no-repeat;
+    background-position: 50% 25%;
+    width: 220px;
+    height: 187px;
+}
+
+.lay11 {
+    background-image: url(assets/lay11.png);
+    background-repeat: no-repeat;
+    background-position: 45% 15%;
+    width: 220px;
+    height: 186px;
+    margin-top: 20px;
+}
+
+.lay10 {
+    background-image: url(assets/lay10.png);
+    background-repeat: no-repeat;
+    background-position: 50% 25%;
+    margin-top: 21px;
+    width: 220px;
+    height: 185px;
+}
+
+.lay9 {
+    background-image: url(assets/lay9.png);
+    background-repeat: no-repeat;
+    background-position: 58% 49%;
+    margin-left: -3px;
+    width: 220px;
+    height: 186px;
+}
+
+.lay8 {
+    background-image: url(assets/lay8.png);
+    background-repeat: no-repeat;
+    background-position: 46% 33%;
+    margin-top: 21px;
+    margin-left: -3px;
+    width: 220px;
+    height: 186px;
+}
+
+.lay7 {
+    background-image: url(assets/lay7.png);
+    background-repeat: no-repeat;
+    background-position: 55% 24%;
+    margin-top: 21px;
+    margin-left: -4px;
+    width: 220px;
+    height: 186px;
+}
+
+.lay6 {
+    background-image: url(assets/lay6.png);
+    background-repeat: no-repeat;
+    background-position: 38% 1%;
+    margin-left: -10px;
+    width: 220px;
+    height: 186px;
+}
+
+.lay5 {
+    background-image: url(assets/lay5.png);
+    background-repeat: no-repeat;
+    background-position: 22% 22%;
+    margin-top: 22px;
+    margin-left: -9px;
+    width: 220px;
+    height: 186px;
+}
+
+.lay4 {
+    background-image: url(assets/lay4.png);
+    background-repeat: no-repeat;
+    background-position: 74% 77%;
+    margin-top: 20px;
+    margin-left: -9px;
+    width: 220px;
+    height: 186px;
+    ;
+}
+
+.lay3 {
+    background-image: url(assets/lay3.png);
+    background-repeat: no-repeat;
+    background-position: 50% 25%;
+    margin-top: 21px;
+    margin-left: -14px;
+    width: 220px;
+    height: 186px;
+}
+
+.lay2 {
+    background-image: url(assets/lay2.png);
+    background-repeat: no-repeat;
+    background-position: 41% 35%;
+    margin-top: 21px;
+    margin-left: -16px;
+    width: 220px;
+    height: 186px;
+}
+
+.lay1 {
+    background-image: url(assets/lay1.png);
+    background-repeat: no-repeat;
+    background-position: 53% 22%;
+    margin-left: -16px;
+    width: 220px;
+    height: 186px;
+}
+
+.about-us {
+    width: 100%;
+    height: 730px;
+    background-color: #F2F2F2;
+}
+
+.about-us h1 {
+    margin: 0;
+    padding: 0;
+    color: #666D89;
+    padding-top: 54px;
+    padding-left: 36px;
+    font-size: 36px;
+    letter-spacing: -2px;
+}
+
+.we {
+    margin: 0;
+    padding: 0;
+    color: #666D89;
+    padding-top: 19px;
+    padding-left: 39px;
+    font-size: 18px;
+    line-height: 29px;
+}
+
+.people {
+    width: 100%;
+    display: flex;
+}
+
+.one,
+.two,
+.three {
+    width: 32%;
+    margin: 0;
+    padding: 0;
+}
+
+.man {
+    width: 325px;
+}
+
+.people h3 {
+    margin: 0;
+    padding: 0;
+    color: #636D8B;
+    padding-top: 14px;
+    padding-left: 37px;
+    font-size: 20px;
+    letter-spacing: -1px;
+}
+
+.people p {
+    margin: 0;
+    padding: 0;
+    padding-left: 35px;
+    padding-top: 5px;
+    font-size: 13px;
+    line-height: 22px;
+}
+
+.adam {
+    background-image: url(assets/adam.png);
+    background-repeat: no-repeat;
+    background-position: 50% 108%;
+    height: 341px;
+    padding-left: 55px;
+    padding-top: 3px;
+}
+
+.desmond {
+    background-image: url(assets/desmond.png);
+    background-repeat: no-repeat;
+    background-position: 50% 106%;
+    height: 341px;
+    padding-left: 41px;
+    padding-top: 5px;
+}
+
+.scolara {
+    background-image: url(assets/scolara.png);
+    background-repeat: no-repeat;
+    background-position: 50% 106%;
+    height: 341px;
+    padding-left: 32px;
+    padding-top: 5px;
+}
+
+.social-adam {
+    width: 100%;
+    height: 42px;
+    display: flex;
+    padding-left: 33px;
+    padding-top: 5px;
+}
+
+.social-desmond {
+    width: 100%;
+    height: 42px;
+    display: flex;
+    padding-left: 26px;
+    padding-top: 3px;
+}
+
+.social-scolara {
+    width: 100%;
+    height: 42px;
+    display: flex;
+    padding-left: 19px;
+    padding-top: 3px;
+}
+
+.round {
+    width: 30px;
+    height: 30px;
+    border: 1px solid #636D8B;
+    border-radius: 50%;
+    margin-left: 8px;
+}
+
+.facebook {
+    background-image: url(assets/facebook.png);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+}
+
+.google {
+    background-image: url(assets/google.png);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+}
+
+.twitter {
+    background-image: url(assets/twitter.png);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+}
+
+.linkedin {
+    background-image: url(assets/linkedin.png);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+}
