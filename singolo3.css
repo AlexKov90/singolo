@@ -1,0 +1,261 @@
+@font-face {
+    font-family: 'Lato light', sans-serif;
+    src: url(assets/latolight.ttf);
+}
+
+body {
+    width: 1020px;
+    margin: 0 auto;
+    /* display: flex; */
+    font-family: 'Lato', sans-serif;
+}
+
+.title-footer {
+    margin: 0;
+    padding: 0;
+    padding-top: 62px;
+    padding-left: 39px;
+    font-size: 29px;
+    font-weight: 900;
+    color: #f0d8d9;
+}
+
+footer {
+    width: 100%;
+    height: 655px;
+    background-color: #f06c64;
+}
+
+footer p {
+    margin: 0;
+    padding: 0;
+    padding-top: 25px;
+    padding-left: 38px;
+    font-size: 18px;
+    line-height: 29px;
+    color: #f0d8d9;
+}
+
+.form-part {
+    width: 100%;
+    display: flex;
+    margin-bottom: 74px;
+}
+
+form {
+    width: 630px;
+}
+
+.form-inputs {
+    height: 364px;
+    padding-top: 43px;
+    padding-left: 38px;
+}
+
+.form-inputs input {
+    width: 619px;
+    height: 35px;
+    margin-bottom: 17px;
+    border-radius: 5px;
+    background-color: #d6564f;
+    outline: none;
+    border: none;
+}
+
+input::-webkit-input-placeholder {
+    color: #f48c8f;
+    padding-left: 15px;
+}
+
+input:-moz-placeholder {
+    color: #f48c8f;
+    padding-left: 15px;
+}
+
+textarea:-moz-placeholder {
+    color: #f48c8f;
+    padding-left: 15px;
+}
+
+textarea::-webkit-input-placeholder {
+    color: #f48c8f;
+    padding-left: 15px;
+}
+
+input::-webkit-input-placeholder {
+    opacity: 1;
+    transition: opacity 0.3s ease;
+}
+
+input::-moz-placeholder {
+    opacity: 1;
+    transition: opacity 0.3s ease;
+}
+
+input:-moz-placeholder {
+    opacity: 1;
+    transition: opacity 0.3s ease;
+}
+
+input:-ms-input-placeholder {
+    opacity: 1;
+    transition: opacity 0.3s ease;
+}
+
+input:focus::-webkit-input-placeholder {
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+input:focus::-moz-placeholder {
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+input:focus:-moz-placeholder {
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+input:focus:-ms-input-placeholder {
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.form-inputs textarea {
+    width: 619px;
+    height: 198px;
+    background-color: #d6564f;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+}
+
+.contact {
+    width: 340px;
+    color: #f0d8d9;
+}
+
+.contact h4 {
+    margin: 0;
+    padding: 0;
+    padding-top: 40px;
+    padding-left: 12px;
+    font-size: 18px;
+}
+
+.contact p {
+    margin: 0;
+    padding: 0;
+    font-size: 13px;
+    padding-top: 8px;
+    padding-left: 11px;
+    line-height: 22px;
+}
+
+.cont {
+    height: 200px;
+    width: 325px;
+    margin-top: 21px;
+    padding-left: 15px;
+}
+
+.adress-text p {
+    margin: 0;
+    padding: 0;
+    padding-left: 12px;
+    font-size: 13px;
+}
+
+.adress,
+.tel,
+.email {
+    width: 100%;
+    height: 24px;
+    display: flex;
+}
+
+.tel-text p {
+    margin: 0;
+    padding: 0;
+    margin-top: -3px;
+    padding-left: 11px;
+    letter-spacing: -1px;
+}
+
+.tel-img {
+    margin-left: -3px;
+    margin-top: -3px;
+}
+
+.email-img {
+    margin-top: -5px;
+    margin-left: -2px;
+}
+
+.email-text p {
+    margin: 0;
+    padding: 0;
+    padding-left: 8px;
+    margin-top: -5px;
+}
+
+.copyright {
+    display: flex;
+    width: 100%;
+    height: 100px;
+    background-color: #2d303a;
+}
+
+.copy {
+    width: 49%;
+}
+
+.copy p {
+    margin: 0;
+    padding: 0;
+    font-size: 12px;
+    padding-top: 22px;
+    padding-left: 40px;
+    color: #626984;
+}
+
+.copyright-social {
+    width: 20%;
+    height: 42px;
+    display: flex;
+    padding-left: 330px;
+    padding-top: 21px;
+}
+
+.facebook {
+    background-image: url(assets/facebook.png);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+}
+
+.google {
+    background-image: url(assets/google.png);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+}
+
+.twitter {
+    background-image: url(assets/twitter.png);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+}
+
+.linkedin {
+    background-image: url(assets/linkedin.png);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+}
+
+.round {
+    width: 30px;
+    height: 30px;
+    border: 1px solid #636D8B;
+    border-radius: 50%;
+    margin-left: 8px;
+}
